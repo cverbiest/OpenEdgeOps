@@ -16,7 +16,13 @@ BLOCK-LEVEL ON ERROR UNDO, THROW.
 
 CLASS OrderTest:
       
-    
+    /*
+@Test.
+method public void FailingTest():
+    undo, throw new Progress.Lang.AppError("fail").
+end method.
+
+*/
     /*------------------------------------------------------------------------------
             Purpose:                                                                        
             Notes:                                                                        
